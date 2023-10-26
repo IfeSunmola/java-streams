@@ -1,7 +1,8 @@
 1. Check code for e.g.
-2. Curly braces are optional for single statements. i.e.
+2. Not really "functional". Hacky?
+3. Curly braces are optional for single statements. i.e.
    `Predicate<String> nameContainsIfe = (name) -> name.contains("Ife");`
-3. https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+4. https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
 
 ---
 
@@ -23,5 +24,14 @@
     4. `Function<T, R>` -> Takes argument of type T, returns a value of Type R
     5. `BiFunction<T, U, R>` -> Takes argument of type T and U, returns a value of Type R
     6. `*PrimitiveWrapper*Function<R>` -> Takes a primitive wrapper, returns a value of Type R
+
+3. **Consumer**:
+    1. General idea: Takes a value(s), do something, and returns nothing.
+        1. I see it as it takes parameters, and ***consumes*** them
+    2. The forEach() method helps in iterating over all elements of a stream and perform some operation on each of
+       them. The operation to be performed is passed as a lambda expression parameter.
+    3. `Consumer<T>` -> Takes argument of type T, returns nothing
+    4. `BiConsumer<T, U>` -> Takes argument of type T and U, returns nothing
+    5. `ObjDoubleConsumer<T>` -> Takes any object of type T and a double, returns nothing
 
 ---
