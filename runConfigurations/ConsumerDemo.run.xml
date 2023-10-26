@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="ConsumerDemo" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="ConsumerDemo" />
-    <module name="functional-java" />
+    <module name="java-streams" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
