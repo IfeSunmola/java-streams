@@ -34,4 +34,9 @@
     4. `BiConsumer<T, U>` -> Takes argument of type T and U, returns nothing
     5. `ObjDoubleConsumer<T>` -> Takes any object of type T and a double, returns nothing
 
+4. **Supplier**:
+    1. General idea: Takes nothing, and returns a value.
+        1. It ***supplies*** a value
+    2. `Supplier<T>` -> Takes nothing, returns a value of type T
+
 ---
